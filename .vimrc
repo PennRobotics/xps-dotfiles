@@ -1,5 +1,6 @@
 set nocompatible
 filetype plugin indent on
+colorscheme zellner
 set t_Co=256
 " Display whitespace at end-of-line
   highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
