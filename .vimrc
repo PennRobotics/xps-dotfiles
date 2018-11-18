@@ -27,6 +27,7 @@ set nosmarttab
 set autoread
 set foldmethod=syntax
 set nofoldenable
+set lazyredraw
 autocmd BufNewFile,BufRead * setlocal formatoptions-=cro  " No continuation of comments
 
 command W w !sudo tee % > /dev/null
