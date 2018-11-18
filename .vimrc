@@ -29,6 +29,8 @@ set foldmethod=syntax
 set nofoldenable
 autocmd BufNewFile,BufRead * setlocal formatoptions-=cro  " No continuation of comments
 
+command W w !sudo tee % > /dev/null
+
 set splitbelow
 set splitright
 
