@@ -1,8 +1,8 @@
-# Created by Octave 4.4.1, Thu Oct 04 15:02:11 2018 CEST <wright@wright-xps>
+# Created by Octave 4.4.1, Mon Feb 18 04:20:50 2019 CET <wright@unimog>
 # name: local_packages
 # type: cell
 # rows: 1
-# columns: 2
+# columns: 3
 # name: <cell-element>
 # type: scalar struct
 # ndims: 2
@@ -129,7 +129,7 @@ GPLv3+
 
 # name: loaded
 # type: bool
-1
+0
 
 
 
@@ -139,7 +139,7 @@ GPLv3+
 # type: scalar struct
 # ndims: 2
  1 1
-# length: 13
+# length: 14
 # name: name
 # type: sq_string
 # elements: 1
@@ -257,6 +257,152 @@ http://octave.sf.net
 # elements: 1
 # length: 33
 /home/wright/octave/general-2.1.0
+
+
+# name: loaded
+# type: bool
+0
+
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 15
+# name: name
+# type: sq_string
+# elements: 1
+# length: 7
+gnuplot
+
+
+# name: version
+# type: sq_string
+# elements: 1
+# length: 5
+1.0.1
+
+
+# name: date
+# type: sq_string
+# elements: 1
+# length: 10
+2010-02-07
+
+
+# name: author
+# type: sq_string
+# elements: 1
+# length: 17
+Etienne Grossmann
+
+
+# name: maintainer
+# type: sq_string
+# elements: 1
+# length: 17
+Etienne Grossmann
+
+
+# name: title
+# type: sq_string
+# elements: 1
+# length: 27
+Gnuplot wrappers for octave
+
+
+# name: description
+# type: sq_string
+# elements: 1
+# length: 186
+Scripts to save data in gnuplot-readable formats,  specify gnuplot commands that will be used to produce graphics, and  call gnuplot. See help g_ez quickly produce the most common plots.
+
+
+# name: categories
+# type: sq_string
+# elements: 1
+# length: 8
+graphics
+
+
+# name: depends
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: package
+# type: sq_string
+# elements: 1
+# length: 6
+octave
+
+
+# name: operator
+# type: sq_string
+# elements: 1
+# length: 2
+>=
+
+
+# name: version
+# type: sq_string
+# elements: 1
+# length: 5
+3.0.0
+
+
+
+
+
+
+
+# name: systemrequirements
+# type: sq_string
+# elements: 1
+# length: 16
+gnuplot (>= 4.0)
+
+
+# name: buildrequires
+# type: sq_string
+# elements: 1
+# length: 16
+gnuplot (>= 4.0)
+
+
+# name: license
+# type: sq_string
+# elements: 1
+# length: 22
+GPL version 2 or later
+
+
+# name: url
+# type: sq_string
+# elements: 1
+# length: 20
+http://octave.sf.net
+
+
+# name: dir
+# type: sq_string
+# elements: 1
+# length: 33
+/home/wright/octave/gnuplot-1.0.1
+
+
+# name: archprefix
+# type: sq_string
+# elements: 1
+# length: 33
+/home/wright/octave/gnuplot-1.0.1
 
 
 
