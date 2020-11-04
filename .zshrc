@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:/usr/local/bin/gcc-arm-none-eabi/bin:$HOME/Downloads/arduino-1.8.7:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/bin/gcc-arm-none-eabi/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/wright/.oh-my-zsh
@@ -107,21 +107,5 @@ alias agar="sudo apt autoremove"
 alias agi="sudo apt install"
 alias agp="sudo apt purge"
 alias agr="sudo apt remove"
-alias agu="sudo apt update"
-alias agug="sudo apt upgrade"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/wright/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/wright/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/wright/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/wright/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+alias upd="sudo apt update"
+alias upg="sudo apt upgrade"
