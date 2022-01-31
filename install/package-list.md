@@ -107,6 +107,7 @@ zoom?
 ## Install from source
 
 ```
+oh-my-zsh
 ros
 vim
 ```
