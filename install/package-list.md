@@ -49,16 +49,25 @@ zsh
 
 ```
 apparmor
+htop
+libusb?
+ncurses
 pipewire
+poppler-utils
 rkhunter
+valgrind
 ```
 
 ## Python modules
 
 ```
+matplotlib
+numpy
 oauthlib
+pandas
 pip
 pygments
+scipy
 setuptools
 wheel
 ```
@@ -71,17 +80,37 @@ firefox
 ghidra
 gimp
 kicad-*
+<preferred terminal>
 obs-studio
 openscad
+```
+
+## TODO
+
+```
+yubikey
+caffeine
+<remove snap>
+<extensions>
+<tweaks>
+<automatically import all settings, when possible>
 ```
 
 ## Binaries
 
 ```
 prusa
+vscode
+zoom?
 ```
 
 ## Install from source
 
 ```
+ros
+vim
 ```
+
+## Further inspiration
+
+<https://github.com/topics/installation-scripts>
